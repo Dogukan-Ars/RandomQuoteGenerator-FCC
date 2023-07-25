@@ -1,0 +1,84 @@
+.background {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote-box {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote-content {
+  min-height: 200px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+}
+
+#author {
+  text-align: right;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+button, a {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  width: fit-content;
+  font-weight: 500;
+  background: #1a1a1a;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons-left, .buttons-right {
+  display: inline-block;
+}
+
+#new-quote {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.footer a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #FFFFFF;
+  margin: auto;
+  font-weight: normal;
+  padding: 0;
+}
